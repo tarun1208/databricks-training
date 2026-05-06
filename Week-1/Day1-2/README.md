@@ -1,74 +1,188 @@
-SQL Practice Queries (Employee–Department–Project Database)
-Introduction
-This repository includes a well-organized set of 65 SQL queries designed to help build a strong understanding of database concepts. The queries are based on a simple schema involving Employee, Department, and Project tables
+# 🚀 SQL Practice Queries (Employee–Department–Project Database)
 
-It is useful for:
+## 📌 Introduction
+This repository contains a **well-structured collection of 65 SQL practice queries** designed to strengthen core and advanced database concepts using a simple relational database schema consisting of:
 
-Academic practice
-Interview preparation
-Strengthening practical SQL skills
-Database Structure
+- **Employee**
+- **Department**
+- **Project**
 
-Employee Table
+The project is highly useful for:
 
-emp_id (Primary Key)
-name
-age
-salary
-department_id (Foreign Key)
-hire_date
-Department Table
+✅ **Academic Practice**  
+✅ **SQL Interview Preparation**  
+✅ **Improving Practical Database Skills**  
+✅ **Learning Real-World SQL Query Writing**
 
-department_id (Primary Key)
-name
-Project Table
+---
 
-project_id (Primary Key)
-name
-department_id (Foreign Key)
-Topics Covered Basic SQL Operations
+# 🗂️ Database Schema
 
-Selecting all or specific columns
-Applying conditions using WHERE
-Pattern matching with LIKE
-Working with string functions
-Working with Dates
+## 👨‍💼 Employee Table
 
-Filtering using year and month
-Selecting data within date ranges
-Using functions like CURDATE() and DATE_SUB()
-Aggregate Functions
+| Column Name | Description |
+|---|---|
+| `emp_id` | Primary Key |
+| `name` | Employee Name |
+| `age` | Employee Age |
+| `salary` | Employee Salary |
+| `department_id` | Foreign Key referencing Department |
+| `hire_date` | Employee Hiring Date |
 
-SUM() – total values
-AVG() – average values
-MIN() / MAX() – extreme values
-COUNT() – number of records
-Grouping & Filtering
+---
 
-Using GROUP BY for categorized data
-Applying conditions on groups with HAVING
-Sorting Data
+## 🏢 Department Table
 
-Sorting using ORDER BY
-Ascending and descending order
-Sorting by multiple columns
-Joins
+| Column Name | Description |
+|---|---|
+| `department_id` | Primary Key |
+| `name` | Department Name |
 
-INNER JOIN for matching records
-LEFT JOIN for complete data retrieval
-Combining multiple tables
-Subqueries
+---
 
-Simple (scalar) subqueries
-Nested queries
-Correlated subqueries
-Advanced SQL Concepts
+## 📁 Project Table
 
-Finding 2nd and 3rd highest salaries
-Comparing department-wise data
-Employees earning above department average
-Identifying departments without employees
-Finding employees not assigned to projects
-Query Breakdown
+| Column Name | Description |
+|---|---|
+| `project_id` | Primary Key |
+| `name` | Project Name |
+| `department_id` | Foreign Key referencing Department |
 
-Range| Description 1 – 15| Basic selection and filtering 16 – 30| Aggregation and grouping 31 – 35| Sorting 36 – 43| Joins 44 – 65| Subqueries and advanced logic
+---
+
+# 🔗 Database Relationships
+
+```text
+Department
+   ↑
+   |
+Employee
+
+Department
+   ↑
+   |
+Project
+```
+
+---
+
+# 📚 Topics Covered
+
+## ✅ Basic SQL Operations
+- `SELECT`
+- `WHERE`
+- `DISTINCT`
+- `LIKE`
+- String Functions
+- Conditional Filtering
+
+---
+
+## 📅 Working with Dates
+- Filtering using `YEAR()` and `MONTH()`
+- Selecting records within date ranges
+- Using:
+  - `CURDATE()`
+  - `DATE_SUB()`
+  - `BETWEEN`
+
+---
+
+## 📊 Aggregate Functions
+- `SUM()` → Total values
+- `AVG()` → Average values
+- `MIN()` / `MAX()` → Extreme values
+- `COUNT()` → Record counting
+
+---
+
+## 🧩 Grouping & Filtering
+- `GROUP BY`
+- `HAVING`
+- Department-wise calculations
+- Aggregate-based filtering
+
+---
+
+## 🔃 Sorting Data
+- `ORDER BY`
+- Ascending (`ASC`)
+- Descending (`DESC`)
+- Multi-column sorting
+
+---
+
+## 🔗 SQL Joins
+- `INNER JOIN`
+- `LEFT JOIN`
+- Multi-table joins
+- Handling `NULL` values
+
+---
+
+## 🧠 Subqueries
+- Scalar Subqueries
+- Nested Queries
+- Correlated Subqueries
+
+---
+
+## 🔥 Advanced SQL Concepts
+- Finding **2nd Highest Salary**
+- Finding **Nth Highest Salary**
+- Employees earning above department average
+- Department-wise comparisons
+- Departments without employees
+- Employees not assigned to projects
+- Aggregate comparisons using nested queries
+
+---
+
+# 📈 Query Classification
+
+| Query Range | Description |
+|---|---|
+| **1 – 15** | Basic Selection & Filtering |
+| **16 – 30** | Aggregation & Grouping |
+| **31 – 35** | Sorting Queries |
+| **36 – 43** | SQL Joins |
+| **44 – 65** | Subqueries & Advanced SQL Logic |
+
+---
+
+# ⚠️ Edge Cases Included
+
+This project also handles important edge cases such as:
+
+✅ Employees without departments  
+✅ Projects without departments  
+✅ Departments with multiple employees  
+✅ Departments without employees  
+✅ NULL value handling in joins and conditions
+
+---
+
+# 🛠️ Technologies Used
+
+- **MySQL**
+- **SQL**
+- **Relational Database Concepts**
+
+---
+
+# 🎯 Learning Outcomes
+
+By completing these queries, you will gain practical experience in:
+
+✅ Writing optimized SQL queries  
+✅ Understanding relational database design  
+✅ Using joins and subqueries effectively  
+✅ Handling real-world SQL scenarios  
+✅ Performing data aggregation and filtering  
+✅ Improving problem-solving skills in SQL
+
+---
+
+# 👨‍💻 Author
+
+Developed as part of **SQL practice, interview preparation, and database learning exercises**.
