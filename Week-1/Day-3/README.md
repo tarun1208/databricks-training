@@ -18,7 +18,6 @@ The queries focus mainly on:
 
 
 # 🗂️ Database Schema
----
 
 ## 👨‍🎓 Students Table
 
