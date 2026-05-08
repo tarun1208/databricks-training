@@ -1,7 +1,5 @@
 # 🚀 SQL Joins Practice Queries (Students–Courses–Instructors Database)
 
----
-
 ## 📌 Introduction
 This repository contains a **collection of SQL JOIN practice queries** designed to improve understanding of relational database operations using a sample database consisting of:
 
@@ -18,7 +16,6 @@ The queries focus mainly on:
 ✅ **Database Relationship Understanding**  
 ✅ **Interview-Oriented SQL Practice**
 
----
 
 # 🗂️ Database Schema
 ---
