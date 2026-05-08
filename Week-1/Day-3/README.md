@@ -108,6 +108,7 @@ Join a table with itself.
 ## ✅ NATURAL JOIN
 Automatically joins using columns with the same name.
 
+---
 
 # 📊 Topics Practiced
 
@@ -119,6 +120,7 @@ Automatically joins using columns with the same name.
 - SELF JOIN
 - NATURAL JOIN
 
+---
 
 # ⚠️ Edge Cases Included
 
@@ -130,6 +132,7 @@ This database includes several important edge cases:
 ✅ NULL foreign keys  
 ✅ Unmatched rows for JOIN operations
 
+---
 
 # 🛠️ Technologies Used
 
@@ -138,6 +141,7 @@ This database includes several important edge cases:
 - **SQL**
 - **Relational Database Concepts**
 
+---
 
 # 🎯 Learning Outcomes
 
@@ -150,6 +154,7 @@ By completing these JOIN queries, you will gain practical understanding of:
 ✅ Real-world database querying  
 ✅ SQL interview problem solving
 
+---
 
 # 🚀 Future Improvements
 
