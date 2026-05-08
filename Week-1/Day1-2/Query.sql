@@ -288,3 +288,73 @@ A.  select name from Employee
       select hire_date from Employee
       where name = 'Jane Smith'
     )
+
+56.	Select the total salary of employees hired in the year 2020.
+A.  select sum(salary) from Employee
+    where year(hire_date)=2020
+
+57.	Select the average salary of employees in each department, ordered by the average salary in descending order.
+A.  select d.name, avg(e.salary) from Department d
+    join Employee e
+    on e.department_id = d.department_id
+    group by d.name
+    order by avg(e.salary) desc
+
+58.	Select departments with more than 1 employee and an average salary greater than 55000.
+A.  select d.name from Department d
+    join Employee e
+    on e.department_id = d.department_id
+    group by d.name
+    having avg(e.salary) >55000 and count(e.emp_id)>1
+
+59.	Select employees hired in the last 2 years, ordered by their hire date.
+A.  select * from Employee
+    where hire_date = curdate() - interval 2 year
+    order by hire_date
+
+60.	Select the total number of employees and the average salary for departments with more than 2 employees.
+A.  select d.name, count(e.emp_id), avg(e.salary) from Department d
+    join Employee e
+    on d.department_id = e.department_id
+    group by d.name
+    having count(e.emp_id)>2
+
+61.	Select the name and salary of employees whose salary is above the average salary of their department.
+A.  select name,salary from Employee e
+    where salary > (
+      select avg(salary) from Employee
+      where department_id = e.department_id
+      )
+
+62.	Select the names of employees who are hired on the same date as the oldest employee in the company.
+A.  select name from Employee
+    where hire_date = (
+      select hire_date from Employee
+      where age = (
+        select max(age) from Employee
+        )
+      )
+
+63.	Select the department names along with the total number of projects they are working on, ordered by the number of projects.
+A.  select d.name, count(p.project_id) from Department d
+    join Project p
+    on d.department_id = p.department_id
+    group by d.name
+    order by count(p.project_id)
+
+64.	Select the employee name with the highest salary in each department.
+A.  select d.name as Department_name,e.name as Employee_name, e.salary 
+    from Employee e
+    join Department d
+    on e.department_id = d.department_id
+    where (e.department_id,e.salary) in (
+      select department_id,max(salary) from Employee
+      group by department_id
+      )
+
+65.	Select the names and salaries of employees who are older than the average age of employees in their department.
+A.  select name, salary from Employee e
+    where age > (
+      select avg(age) from Employee
+      where department_id = e.department_id
+      )
