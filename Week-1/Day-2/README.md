@@ -63,7 +63,6 @@ Cities:
 
 # 📚 SQL Concepts Covered
 
----
 
 # 1️⃣ Basic SELECT Queries
 
