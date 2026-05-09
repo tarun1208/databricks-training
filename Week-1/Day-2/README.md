@@ -98,7 +98,6 @@ Operators practiced:
 - `AND`
 - `OR`
 - `NOT`
----
 
 # 9️⃣ IN & NOT IN
 
