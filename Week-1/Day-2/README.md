@@ -78,8 +78,6 @@ Functions practiced:
 - `MAX()`
 - `MIN()`
 
----
-
 # 4️⃣ GROUP BY & HAVING
 
 # 5️⃣ ORDER BY & LIMIT
@@ -94,8 +92,6 @@ Operators used:
 - `>=`
 - `<=`
 - `<>`
-
----
 
 # 8️⃣ Logical Operators
 
