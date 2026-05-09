@@ -169,5 +169,3 @@ By completing these queries, you will learn:
 - Add CTEs
 - Add Stored Procedures
 - Add Triggers
-
----
