@@ -331,7 +331,7 @@ A.  select *
        on m.subject_id = sub.subject_id
       ) x
     where marks > subject_avg;
-
+    
 47. Find departments whose average staff salary is higher than overall average salary.
 A.  select department_name, salary_avg,overall_avg
     from (
