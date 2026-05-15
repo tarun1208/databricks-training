@@ -63,19 +63,19 @@ Cities:
 
 # 📚 SQL Concepts Covered
 
-## ✅ 1️⃣ Basic SELECT Queries
+##  1️⃣ Basic SELECT Queries
 
 Retrieve data from the Employees table.
 
----
 
-## ✅ 2️⃣ WHERE Clause Filtering
+
+##  2️⃣ WHERE Clause Filtering
 
 Filter rows using conditions.
 
----
 
-## ✅ 3️⃣ Aggregate Functions
+
+##  3️⃣ Aggregate Functions
 
 Functions practiced:
 
@@ -85,27 +85,25 @@ Functions practiced:
 * `MAX()`
 * `MIN()`
 
----
 
-## ✅ 4️⃣ GROUP BY & HAVING
+## 4️⃣ GROUP BY & HAVING
 
 Perform grouped analysis and filtering.
 
----
 
-## ✅ 5️⃣ ORDER BY & LIMIT
+
+## 5️⃣ ORDER BY & LIMIT
 
 Sort and limit records.
 
----
 
-## ✅ 6️⃣ DISTINCT Keyword
+
+## 6️⃣ DISTINCT Keyword
 
 Retrieve unique values.
 
----
 
-## ✅ 7️⃣ Comparison Operators
+## 7️⃣ Comparison Operators
 
 Operators used:
 
@@ -115,9 +113,8 @@ Operators used:
 * `<=`
 * `<>`
 
----
 
-## ✅ 8️⃣ Logical Operators
+## 8️⃣ Logical Operators
 
 Operators practiced:
 
@@ -125,21 +122,18 @@ Operators practiced:
 * `OR`
 * `NOT`
 
----
 
-## ✅ 9️⃣ IN & NOT IN
+## 9️⃣ IN & NOT IN
 
 Filter using multiple values.
 
----
 
-## ✅ 🔟 BETWEEN & NOT BETWEEN
+## 🔟 BETWEEN & NOT BETWEEN
 
 Filter records within ranges.
 
----
 
-## ✅ 1️⃣1️⃣ LIKE Operator
+## 1️⃣1️⃣ LIKE Operator
 
 Perform pattern matching.
 
