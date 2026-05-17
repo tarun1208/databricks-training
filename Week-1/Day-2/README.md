@@ -63,52 +63,85 @@ Cities:
 
 # 📚 SQL Concepts Covered
 
+##  1️⃣ Basic SELECT Queries
 
-# 1️⃣ Basic SELECT Queries
+Retrieve data from the Employees table.
 
-# 2️⃣ WHERE Clause Filtering
 
-# 3️⃣ Aggregate Functions
+
+##  2️⃣ WHERE Clause Filtering
+
+Filter rows using conditions.
+
+
+
+##  3️⃣ Aggregate Functions
 
 Functions practiced:
-- `SUM()`
-- `AVG()`
-- `COUNT()`
-- `MAX()`
-- `MIN()`
 
-# 4️⃣ GROUP BY & HAVING
+* `SUM()`
+* `AVG()`
+* `COUNT()`
+* `MAX()`
+* `MIN()`
 
-# 5️⃣ ORDER BY & LIMIT
 
-# 6️⃣ DISTINCT Keyword
+## 4️⃣ GROUP BY & HAVING
 
-# 7️⃣ Comparison Operators
+Perform grouped analysis and filtering.
+
+
+
+## 5️⃣ ORDER BY & LIMIT
+
+Sort and limit records.
+
+
+
+## 6️⃣ DISTINCT Keyword
+
+Retrieve unique values.
+
+
+## 7️⃣ Comparison Operators
 
 Operators used:
-- `>`
-- `<`
-- `>=`
-- `<=`
-- `<>`
 
-# 8️⃣ Logical Operators
+* `>`
+* `<`
+* `>=`
+* `<=`
+* `<>`
+
+
+## 8️⃣ Logical Operators
 
 Operators practiced:
-- `AND`
-- `OR`
-- `NOT`
 
-# 9️⃣ IN & NOT IN
+* `AND`
+* `OR`
+* `NOT`
 
-# 🔟 BETWEEN & NOT BETWEEN
 
-# 1️⃣1️⃣ LIKE Operator
+## 9️⃣ IN & NOT IN
 
-Pattern matching :
-- Names starting with 
-- Names ending with 
-- Names containing 
+Filter using multiple values.
+
+
+## 🔟 BETWEEN & NOT BETWEEN
+
+Filter records within ranges.
+
+
+## 1️⃣1️⃣ LIKE Operator
+
+Perform pattern matching.
+
+Patterns practiced:
+
+* Names starting with characters
+* Names ending with characters
+* Names containing specific patterns
 
 ---
 
@@ -169,3 +202,7 @@ By completing these queries, you will learn:
 - Add CTEs
 - Add Stored Procedures
 - Add Triggers
+
+
+
+

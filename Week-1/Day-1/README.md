@@ -182,7 +182,3 @@ By completing these queries, you will gain practical experience in:
 ✅ Improving problem-solving skills in SQL
 
 ---
-
-# 👨‍💻 Author
-
-Developed as part of **SQL practice, interview preparation, and database learning exercises**.
