@@ -1,4 +1,4 @@
-# 🚀 SQL JOIN Practice – Week 2
+# 🚀 SQL JOINS
 
 ## 📌 Introduction
 This repository contains a collection of **SQL JOIN practice queries** designed to strengthen understanding of:
