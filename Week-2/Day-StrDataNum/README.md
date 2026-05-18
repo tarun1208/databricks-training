@@ -64,16 +64,16 @@ String functions are used for:
 
 | Function | Purpose | Example | Output |
 |---|---|---|---|
-| `upper()` | Converts text to uppercase | `upper('karthik')` | `KARTHIK` |
-| `lower()` | Converts text to lowercase | `lower('KARTHIK')` | `karthik` |
-| `initcap()` | Converts first letter of each word to uppercase | `initcap('karthik ravi')` | `Karthik Ravi` |
-| `length()` | Returns total number of characters | `length('karthik')` | `8` |
-| `left()` | Extracts characters from left side | `left('karthik',3)` | `kar` |
-| `right()` | Extracts characters from right side | `right('karthik',2)` | `ik` |
-| `reverse()` | Reverses string | `reverse('abc')` | `cba` |
+| `upper()` | Converts text to uppercase | `upper('Tarun')` | `TARUN` |
+| `lower()` | Converts text to lowercase | `lower('TARUN')` | `tarun` |
+| `initcap()` | Converts first letter of each word to uppercase | `initcap('nunna tarun')` | `Nunna Tarun` |
+| `length()` | Returns total number of characters | `length('Tarun')` | `5` |
+| `left()` | Extracts characters from left side | `left('Tarun',3)` | `Tar` |
+| `right()` | Extracts characters from right side | `right('Tarun',2)` | `un` |
+| `reverse()` | Reverses string | `reverse('tarun')` | `nurat` |
 | `ascii()` | Returns ASCII value of first character | `ascii('A')` | `65` |
-| `concat()` | Combines multiple strings | `concat('sql',' ','practice')` | `sql practice` |
-| `split_part()` | Splits string using delimiter | `split_part('a@gmail.com','@',2)` | `gmail.com` |
+| `concat()` | Combines multiple strings | `concat('Nunna',' ','Tarun')` | `Nunna Tarun` |
+| `split_part()` | Splits string using delimiter | `split_part('n@gmail.com','@',2)` | `gmail.com` |
 
 ---
 
@@ -395,8 +395,5 @@ Important topics:
 - Add Performance Optimization
 - Add Recursive Queries
 - Add Advanced Analytics
-
----
-This project is for educational and practice purposes only.
 
 ---
