@@ -8,4 +8,5 @@ result = sales.groupBy("customer_id") \
     .agg(count("sale_id").alias("total_sales")) \
     .filter(col("total_sales") > 1) \
     .orderBy(col("total_sales").desc())
+
 result.show()
