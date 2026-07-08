@@ -1,0 +1,47 @@
+customer_id,first_name,last_name,city,total_spend,total_orders,segment
+4,Liam,Johnson,Riverside,135.45999999999998,2,Gold
+22,Henry,Moore,Boston,119.96,1,Gold
+2,Emma,Jones,Centerville,114.97,2,Gold
+7,Isabella,Davis,Boise,110.95,1,Gold
+45,Charlotte,Wood,New York,109.96,1,Gold
+24,Daniel,Walker,St. Louis,99.95,1,Silver
+34,Lucas,Mitchell,Washington,92.0,1,Silver
+15,Harper,Jackson,Seattle,92.0,1,Silver
+20,Elijah,Garcia,Detroit,89.97,1,Silver
+39,Aria,Davis,Memphis,89.96,1,Silver
+27,Sofia,Young,San Antonio,79.96,1,Silver
+9,Sophia,Garcia,Albany,79.96,1,Silver
+30,David,Scott,Columbus,71.97,1,Silver
+1,John,Smith,Springfield,69.97,2,Silver
+12,William,Anderson,Nashville,67.47,1,Silver
+41,Penelope,Roberts,Las Vegas,67.47,1,Silver
+26,Matthew,Allen,Milwaukee,66.75,1,Silver
+5,Noah,Williams,Lakeside,66.75,1,Silver
+35,Harper,Mitchell,Philadelphia,60.0,1,Silver
+16,Jackson,White,Atlanta,60.0,1,Silver
+18,Oliver,Martin,Indianapolis,59.97,2,Silver
+44,Daniel,Morris,San Diego,55.5,1,Silver
+10,Lucas,Rodriguez,Portland,55.0,1,Silver
+31,Chloe,Adams,San Jose,50.0,1,Silver
+21,Scarlett,Wilson,Jacksonville,49.98,1,Bronze
+3,Olivia,Brown,Greenville,49.98,1,Bronze
+28,Leo,King,Las Vegas,45.0,1,Bronze
+40,Benjamin,Evans,Denver,40.0,1,Bronze
+25,Harper,Hall,Honolulu,40.0,1,Bronze
+17,Charlotte,Harris,San Diego,40.0,1,Bronze
+43,Lily,Turner,Chicago,40.0,1,Bronze
+6,Alice,Miller,Oakland,40.0,1,Bronze
+37,Avery,Allen,Charlotte,39.98,1,Bronze
+29,Nora,Wright,Orlando,35.98,1,Bronze
+13,Amelia,Thomas,Denver,34.0,1,Bronze
+33,Grace,Baker,Jackson,34.0,1,Bronze
+19,Madison,Thompson,Charlotte,29.99,1,Bronze
+32,James,Green,San Francisco,27.5,1,Bronze
+11,Mia,Lopez,Miami,25.0,1,Bronze
+42,Elijah,Young,Houston,22.5,1,Bronze
+8,James,Martinez,Des Moines,20.0,1,Bronze
+38,Logan,Carter,El Paso,19.99,1,Bronze
+36,Mason,Campbell,Baltimore,18.75,1,Bronze
+23,Evelyn,Lee,Pittsburgh,15.5,1,Bronze
+14,Ethan,Taylor,Minneapolis,15.0,1,Bronze
+46,Michael,Cooper,Seattle,12.99,1,Bronze
